@@ -13,5 +13,5 @@ lib/model/om/*
 lib/model/map/*
 plugins/sfGuardPlugin/*
 lib/vendor/symfony/*
-web/uploads/*
+web/uploads/*/*
 data/fixtures/fixtures.yml
