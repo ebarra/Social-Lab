@@ -1,9 +1,9 @@
     <?php include_partial('profile/aside') ?>
     <section id="content">
       <h2><?php echo __('About Social Lab privacy wargame') ?></h2>
-      <p>Desplegado e integrado por <a href="http://educainternet.es">EducaInternet</a></p>
+      <p>Desplegado e integrado por <a href="http://educainternet.es">EducaInternet</a>:</p>
       <ul class="about">
-       <li><strong><a href="http://educainternet.es">EducaInternet</a></strong> es una plataforma para la formación en el uso seguro y responsable de las TIC. Esta web supone una de las actividades del curso #UsoSeguroTIC que se ofrece a través de EducaInternet.</li>
+       <li><strong><a href="http://educainternet.es">EducaInternet</a></strong> es una plataforma para la formación en el uso seguro y responsable de las TIC. Esta web supone una de las actividades de los <a href="http://educainternet.es/courses">cursos #UsoSeguroTIC</a> que se ofrece a través de EducaInternet.</li>
       </ul>
       <p><?php echo __('Developed by:') ?></p>
       <ul class="about">
