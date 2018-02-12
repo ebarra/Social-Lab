@@ -1,5 +1,5 @@
-/* Based on: 
- * - Alien Abductions (http://freehtml5templates.com) 
+/* Based on:
+ * - Alien Abductions (http://freehtml5templates.com)
  * - Default Facebook CSS (http://devtacular.com)
  * - CSS3 Github & Facebook-style buttons (Nicolas Gallagher)
  *   - http://nicolasgallagher.com/lab/css3-github-buttons/
@@ -12,27 +12,27 @@ margin: 0;
 padding: 0;
 }
 
-.cleaner { 
-clear: both; 
+.cleaner {
+clear: both;
 }
 
-.float_l { 
+.float_l {
 float: left;
 }
 
-.float_r { 
+.float_r {
 float: right;
 }
 
-.center { 
+.center {
 text-align: center;
 }
 
-.left { 
+.left {
 text-align: left;
 }
 
-.right { 
+.right {
 text-align: right;
 }
 
@@ -44,12 +44,12 @@ display: block;
 body {
 line-height: 1;
 background: #eee;
-font-family: "lucida grande", tahoma, verdana, arial, sans-serif;  
+font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
 color: #333;
 font-size: 14px;
 line-height: 18px;
 }
-	
+
 /* layout */
 
 #wrapper {
@@ -65,14 +65,14 @@ nav {
 width: 940px;
 height: 50px;
 margin: 0 auto;
-background: #3b5998;
+background: #ff7900;
 }
 
 header {
 width: 940px;
 height: 10px;
 margin: 0 auto;
-background: #3b5998;
+background: #ff7900;
 }
 
 #main {
@@ -117,12 +117,12 @@ color: black;
 }
 
 a:link, a:visited {
-color:#3b5998;
+color:#ff7900;
 text-decoration: none;
 }
 
 a:hover, a:active {
-color: #3b5998;
+color: #ff7900;
 text-decoration: underline;
 }
 
@@ -302,7 +302,7 @@ margin-bottom: 5px;
 }
 
 #footer-area {
-background: #3b5998;
+background: #ff7900;
 color: #eee;
 font-size: 90%;
 font-weight: bold;
@@ -328,7 +328,7 @@ footer a:link, footer a:visited {
 color: #eee;
 }
 
-footer a:hover { 
+footer a:hover {
 color: #fff;
 text-decoration: none;
 }
@@ -338,88 +338,88 @@ list-style: inside url(/images/arrow.gif);
 margin-bottom: 5px;
 }
 
-/* forms */ 
+/* forms */
 
-input[type=text], input[type=password] { 
-width: 270px; 
-padding: 5px; 
-color: #666; 
+input[type=text], input[type=password] {
+width: 270px;
+padding: 5px;
+color: #666;
 border: 1px solid #CCC;
 margin: 5px 0 5px 0;
-background: #f7f7f7; 
+background: #f7f7f7;
 }
 
 input[type=file] {
-padding: 5px; 
-color: #666; 
+padding: 5px;
+color: #666;
 border: 1px solid #CCC;
 margin: 5px 0 5px 0;
-background: #f7f7f7; 
+background: #f7f7f7;
 }
 
-div.select-big select { 
-width: 270px; 
-padding: 5px; 
-color: #666; 
+div.select-big select {
+width: 270px;
+padding: 5px;
+color: #666;
 border: 1px solid #CCC;
 margin: 5px 0 5px 0;
-background: #f7f7f7; 
+background: #f7f7f7;
 }
 
-div.select-medium select { 
-width: 135px; 
-padding: 5px; 
-color: #666; 
+div.select-medium select {
+width: 135px;
+padding: 5px;
+color: #666;
 border: 1px solid #CCC;
 margin: 5px 0 5px 0;
-background: #f7f7f7; 
+background: #f7f7f7;
 }
 
-div.select-small select { 
-width: 65px; 
-padding: 5px; 
-color: #666; 
+div.select-small select {
+width: 65px;
+padding: 5px;
+color: #666;
 border: 1px solid #CCC;
 margin: 5px 0 5px 0;
-background: #f7f7f7; 
+background: #f7f7f7;
 }
 
-label { 
-display: block; 
-min-width: 100px; 
-margin-right: 10px; 
+label {
+display: block;
+min-width: 100px;
+margin-right: 10px;
 }
 
-textarea { 
-width: 100%; 
-height: 80px; 
-padding: 10px 0 10px 0; 
+textarea {
+width: 100%;
+height: 80px;
+padding: 10px 0 10px 0;
 margin-bottom: 10px;
-color: #666; 
-border: 1px solid #CCC; 
-background: #e8e8e8; 
+color: #666;
+border: 1px solid #CCC;
+background: #e8e8e8;
 }
 
-.input_status { 
-width: 100%; 
-height: 40px; 
-padding: 10px 0 0 0; 
-color: #666; 
+.input_status {
+width: 100%;
+height: 40px;
+padding: 10px 0 0 0;
+color: #666;
 float: right;
-border: 1px solid #CCC; 
-background: #e8e8e8; 
+border: 1px solid #CCC;
+background: #e8e8e8;
 }
 
-.submit_btn { 
-display: block; 
-padding: 5px 15px; 
+.submit_btn {
+display: block;
+padding: 5px 15px;
 margin-top: 10px;
-text-align: center; 
-text-decoration: none;  
-background: #d4dae8;  
-color: #666; 
-border: 1px solid #999; 
-font-size: 11px; 
+text-align: center;
+text-decoration: none;
+background: #d4dae8;
+color: #666;
+border: 1px solid #999;
+font-size: 11px;
 cursor: pointer;
 }
 
@@ -431,95 +431,95 @@ color: red;
 /*
  */
 
-/* Default Facebook CSS http://devtacular.com */  
-.fbbody  
-{  
-    font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;  
-    font-size: 11px;  
-    color: #333333;  
-}  
-/* Default Anchor Style */  
-.fbbody a  
-{  
-    color: #3b5998;  
-    outline-style: none;  
-    text-decoration: none;  
-    font-size: 11px;  
-    font-weight: bold;  
-}  
-.fbbody a:hover  
-{  
-    text-decoration: underline;  
-}  
-/* Facebook Box Styles */  
-.fbgreybox  
-{  
-    background-color: #f7f7f7;  
-    border: 1px solid #cccccc;  
-    color: #333333;  
-    padding: 10px;  
-    font-size: 13px;  
-    font-weight: bold;  
-}  
-.fbbluebox  
-{  
-    background-color: #eceff6;  
-    border: 1px solid #d4dae8;  
-    color: #333333;  
-    padding: 7px;  
-    font-size: 13px;  
-    font-weight: bold;  
+/* Default Facebook CSS http://devtacular.com */
+.fbbody
+{
+    font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;
+    font-size: 11px;
+    color: #333333;
+}
+/* Default Anchor Style */
+.fbbody a
+{
+    color: #ff7900;
+    outline-style: none;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+}
+.fbbody a:hover
+{
+    text-decoration: underline;
+}
+/* Facebook Box Styles */
+.fbgreybox
+{
+    background-color: #f7f7f7;
+    border: 1px solid #cccccc;
+    color: #333333;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.fbbluebox
+{
+    background-color: #eceff6;
+    border: 1px solid #d4dae8;
+    color: #333333;
+    padding: 7px;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 .fbbluebox.read
 {
-    color: #666;  
+    color: #666;
 }
-  
-.fbinfobox  
-{  
-    background-color: #fff9d7;  
-    border: 1px solid #e2c822;  
-    color: #333333;  
-    padding: 7px;  
-    font-size: 13px;  
-    font-weight: bold;  
-}  
-.fberrorbox  
-{  
-    background-color: #ffebe8;  
-    border: 1px solid #dd3c10;  
-    color: #333333;  
-    padding: 7px;  
-    font-size: 13px;  
-    font-weight: bold;  
-}  
-/* Content Divider on White Background */  
-.fbcontentdivider  
-{  
-    margin-top: 15px;  
-    margin-bottom: 15px;  
-    width: 520px;  
-    height: 1px;  
-    background-color: #d8dfea;  
-}  
-/* Facebook Tab Style */  
-.fbtab  
-{  
-    padding: 8px;  
-    background-color: #d8dfea;  
-    color: #3b5998;  
-    font-weight: bold;  
-    float: left;  
-    margin-right: 4px;  
-    text-decoration: none;  
-}  
-.fbtab:hover  
-{  
-    background-color: #3b5998;  
-    color: #ffffff;  
-    cursor: hand;  
-}  
+
+.fbinfobox
+{
+    background-color: #fff9d7;
+    border: 1px solid #e2c822;
+    color: #333333;
+    padding: 7px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.fberrorbox
+{
+    background-color: #ffebe8;
+    border: 1px solid #dd3c10;
+    color: #333333;
+    padding: 7px;
+    font-size: 13px;
+    font-weight: bold;
+}
+/* Content Divider on White Background */
+.fbcontentdivider
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 520px;
+    height: 1px;
+    background-color: #d8dfea;
+}
+/* Facebook Tab Style */
+.fbtab
+{
+    padding: 8px;
+    background-color: #d8dfea;
+    color: #ff7900;
+    font-weight: bold;
+    float: left;
+    margin-right: 4px;
+    text-decoration: none;
+}
+.fbtab:hover
+{
+    background-color: #ff7900;
+    color: #ffffff;
+    cursor: hand;
+}
 
 /*
  */
@@ -536,21 +536,21 @@ color: red;
    ========================================================================== */
 
 .button {
-    position: relative; 
+    position: relative;
     z-index: 1;
-    overflow: visible; 
-    display: inline-block; 
-    padding: 0.6em 1.2em 0.750em; 
-    border: 1px solid #999; 
+    overflow: visible;
+    display: inline-block;
+    padding: 0.6em 1.2em 0.750em;
+    border: 1px solid #999;
     border-bottom-color: #888;
     margin: 0;
-    text-decoration: none; 
+    text-decoration: none;
     text-align: center;
-    font: bold 11px/normal 'lucida grande', tahoma, verdana, arial, sans-serif; 
-    white-space: nowrap; 
-    cursor: pointer; 
+    font: bold 11px/normal 'lucida grande', tahoma, verdana, arial, sans-serif;
+    white-space: nowrap;
+    cursor: pointer;
     /* outline: none; */
-    color: #333; 
+    color: #333;
     background-color: #eee;
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f6f6), to(#e4e4e3));
     background-image: -moz-linear-gradient(#f5f6f6, #e4e4e3);
@@ -561,14 +561,14 @@ color: red;
     -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #fff;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #fff;
     /* IE hacks */
-    zoom: 1; 
-    *display: inline; 
+    zoom: 1;
+    *display: inline;
 }
 
 .button.confirm {
     border-color: #29447e #29447e #1a356e;
     color: #fff;
-    background-color: #5B74A8;
+    background-color: #ff7900;
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#637bad), to(#5872a7));
     background-image: -moz-linear-gradient(#637bad, #5872a7);
     background-image: -o-linear-gradient(#637bad, #5872a7);
@@ -839,7 +839,7 @@ color: red;
 
 .button.aside:hover {
     color: #FFF;
-    background: #5B74A8;
+    background: #ff7900;
 }
 
 .button.big.icon:before {
@@ -944,5 +944,3 @@ text-decoration: none;
 .button.confirm a {
 color: #fff;
 }
-
-
