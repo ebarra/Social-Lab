@@ -120,3 +120,14 @@ A more complex example:
  -  bot = B, command = Check Location, step order = 1, automsg = null.
  -  bot = B, command = Accept Friendship, step order = 2, automsg = null.
 
+
+ Load new Data for the Bots (new texts)
+ --------------------------------------
+ First, drop the db or create new db and change the db name of the app in config/database.yml
+ Edit the fixtures of the text that the bots send as message in data/fixtures/99_basic.yml
+ Then:
+ php -d memory_limit=256M symfony propel:build-all
+ php -d memory_limit=256M symfony propel:data-load
+ sudo chmod -R 777 /home/isabel/mysociallab/web/uploads/profiles
+ sudo chmod -R 777 /home/isabel/mysociallab/log
+ 
