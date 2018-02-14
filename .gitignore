@@ -11,3 +11,10 @@ lib/model/doctrine/base/Base*
 lib/model/doctrine/*Plugin/base/Base*
 lib/model/om/*
 lib/model/map/*
+plugins/sfGuardPlugin/*
+web/uploads/*
+web/uploads/pics/*
+web/uploads/pages/*
+web/uploads/profiles/*
+web/sfPropelPlugin
+data/fixtures/fixtures.yml
