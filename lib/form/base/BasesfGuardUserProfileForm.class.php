@@ -33,6 +33,7 @@ abstract class BasesfGuardUserProfileForm extends BaseFormPropel
       'pictures_info_is_public' => new sfWidgetFormPropelChoice(array('model' => 'Privacy', 'add_empty' => true)),
       'pages_info_is_public'    => new sfWidgetFormPropelChoice(array('model' => 'Privacy', 'add_empty' => true)),
       'friends_info_is_public'  => new sfWidgetFormPropelChoice(array('model' => 'Privacy', 'add_empty' => true)),
+      'tos_accept'              => new sfWidgetFormInputCheckbox(),
       'created_at'              => new sfWidgetFormDateTime(),
       'updated_at'              => new sfWidgetFormDateTime(),
     ));
@@ -42,7 +43,7 @@ abstract class BasesfGuardUserProfileForm extends BaseFormPropel
       'user_id'                 => new sfValidatorPropelChoice(array('model' => 'sfGuardUser', 'column' => 'id')),
       'first_name'              => new sfValidatorString(array('max_length' => 50)),
       'last_name'               => new sfValidatorString(array('max_length' => 50)),
-      'email'                   => new sfValidatorString(array('max_length' => 255)),
+      'email'                   => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'gender'                  => new sfValidatorPropelChoice(array('model' => 'Gender', 'column' => 'id', 'required' => false)),
       'birthday'                => new sfValidatorDate(array('required' => false)),
       'photo'                   => new sfValidatorString(array('max_length' => 255, 'required' => false)),
@@ -57,6 +58,7 @@ abstract class BasesfGuardUserProfileForm extends BaseFormPropel
       'pictures_info_is_public' => new sfValidatorPropelChoice(array('model' => 'Privacy', 'column' => 'id', 'required' => false)),
       'pages_info_is_public'    => new sfValidatorPropelChoice(array('model' => 'Privacy', 'column' => 'id', 'required' => false)),
       'friends_info_is_public'  => new sfValidatorPropelChoice(array('model' => 'Privacy', 'column' => 'id', 'required' => false)),
+      'tos_accept'              => new sfValidatorBoolean(array('required' => false)),
       'created_at'              => new sfValidatorDateTime(array('required' => false)),
       'updated_at'              => new sfValidatorDateTime(array('required' => false)),
     ));

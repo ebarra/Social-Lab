@@ -78,7 +78,7 @@ class sfUser implements ArrayAccess
     $this->options = array_merge(array(
       'auto_shutdown'   => true,
       'culture'         => null,
-      'default_culture' => 'en',
+      'default_culture' => 'es',
       'use_flash'       => false,
       'logging'         => false,
     ), $options);

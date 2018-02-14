@@ -15,7 +15,7 @@ abstract class BasesfGuardUserProfileFormFilter extends BaseFormFilterPropel
       'user_id'                 => new sfWidgetFormPropelChoice(array('model' => 'sfGuardUser', 'add_empty' => true)),
       'first_name'              => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'last_name'               => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'email'                   => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'email'                   => new sfWidgetFormFilterInput(),
       'gender'                  => new sfWidgetFormPropelChoice(array('model' => 'Gender', 'add_empty' => true)),
       'birthday'                => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate())),
       'photo'                   => new sfWidgetFormFilterInput(),
@@ -30,6 +30,7 @@ abstract class BasesfGuardUserProfileFormFilter extends BaseFormFilterPropel
       'pictures_info_is_public' => new sfWidgetFormPropelChoice(array('model' => 'Privacy', 'add_empty' => true)),
       'pages_info_is_public'    => new sfWidgetFormPropelChoice(array('model' => 'Privacy', 'add_empty' => true)),
       'friends_info_is_public'  => new sfWidgetFormPropelChoice(array('model' => 'Privacy', 'add_empty' => true)),
+      'tos_accept'              => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
       'created_at'              => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate())),
       'updated_at'              => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate())),
     ));
@@ -53,6 +54,7 @@ abstract class BasesfGuardUserProfileFormFilter extends BaseFormFilterPropel
       'pictures_info_is_public' => new sfValidatorPropelChoice(array('required' => false, 'model' => 'Privacy', 'column' => 'id')),
       'pages_info_is_public'    => new sfValidatorPropelChoice(array('required' => false, 'model' => 'Privacy', 'column' => 'id')),
       'friends_info_is_public'  => new sfValidatorPropelChoice(array('required' => false, 'model' => 'Privacy', 'column' => 'id')),
+      'tos_accept'              => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
       'created_at'              => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDate(array('required' => false)), 'to_date' => new sfValidatorDate(array('required' => false)))),
       'updated_at'              => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDate(array('required' => false)), 'to_date' => new sfValidatorDate(array('required' => false)))),
     ));
@@ -91,6 +93,7 @@ abstract class BasesfGuardUserProfileFormFilter extends BaseFormFilterPropel
       'pictures_info_is_public' => 'ForeignKey',
       'pages_info_is_public'    => 'ForeignKey',
       'friends_info_is_public'  => 'ForeignKey',
+      'tos_accept'              => 'Boolean',
       'created_at'              => 'Date',
       'updated_at'              => 'Date',
     );

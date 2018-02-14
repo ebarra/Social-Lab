@@ -1,11 +1,11 @@
 sfGuardGroup:
   sfGuardGroup_1:
     name: admin
-    description: 'Administrator group'
+    description: 'Grupo de administradores'
 sfGuardPermission:
   sfGuardPermission_1:
     name: admin
-    description: 'Administrator permission'
+    description: 'Permisos de administrador'
 sfGuardUser:
   sfGuardUser_1:
     username: admin
@@ -267,18 +267,18 @@ sfGuardGroupPermission:
     permission_id: sfGuardPermission_1
 Gender:
   Gender_1:
-    name: male
+    name: hombre
   Gender_2:
-    name: female
+    name: mujer
   Gender_3:
-    name: other
+    name: otro
 Privacy:
   Privacy_1:
-    name: public
+    name: 'público'
   Privacy_2:
-    name: 'friends of friends'
+    name: 'amigos de amigos'
   Privacy_3:
-    name: friends
+    name: amigos
 sfGuardUserProfile:
   sfGuardUserProfile_1:
     user_id: sfGuardUser_1
@@ -290,7 +290,7 @@ sfGuardUserProfile:
     photo: 29d7b19022420a018f7e3b6444621ef0834e9a33.jpg
     location_town: 'Bilbao'
     location_country: 'Spain'
-    academic_title: 'BSc. Computer Engineering'
+    academic_title: 'Ingeniería en Informática'
     academic_center: 'University of Deusto'
     academic_promotion: '2012'
     updated_at: '2012-01-01 01:01:01'
@@ -309,8 +309,8 @@ sfGuardUserProfile:
     birthday: '1987-06-09'
     photo: 06b76c1cb6324afb6c420741c48d4bc9f2f69bce.jpg
     location_town: Minneapolis
-    location_country: USA
-    academic_title: 'BSc. Psychology'
+    location_country: 'Estados Unidos de América'
+    academic_title: 'Psicología'
     academic_center: 'Harvard University'
     academic_promotion: '2011'
     updated_at: '2012-01-01 01:01:01'
@@ -329,8 +329,8 @@ sfGuardUserProfile:
     birthday: '1983-03-07'
     photo: 84177a5b5c461a6622d83c6ccf7518f98e41d402.jpg
     location_town: Springfield
-    location_country: USA
-    academic_title: 'MSc Electrical Engineering'
+    location_country: 'Estados Unidos de América'
+    academic_title: 'Ingenieria eléctrica'
     academic_center: UCLA
     academic_promotion: '2007'
     updated_at: '2012-01-01 01:01:01'
@@ -349,8 +349,8 @@ sfGuardUserProfile:
     birthday: '1986-02-03'
     photo: 7476be7562de5bcd6c57370f7efd9c1f373897e4.jpg
     location_town: Washington
-    location_country: USA
-    academic_title: 'PhD Physics'
+    location_country: 'Estados Unidos de América'
+    academic_title: 'Dr. Físicas'
     academic_center: 'University of Kansas'
     academic_promotion: '2005'
     updated_at: '2012-01-01 01:01:01'
@@ -369,8 +369,8 @@ sfGuardUserProfile:
     birthday: '1985-04-19'
     photo: c85eaa62e80db988e3573d60765c5a208b43bfdb.jpg
     location_town: London
-    location_country: UK
-    academic_title: 'MSc. Economics'
+    location_country: 'Reino Unido'
+    academic_title: 'Económicas'
     academic_center: 'London School of Economics'
     academic_promotion: '2007'
     updated_at: '2012-01-01 01:01:01'
@@ -389,8 +389,8 @@ sfGuardUserProfile:
     birthday: '1993-04-29'
     photo: 87714bc7c9b71def764c9a7036f80967f3a8aad8.jpg
     location_town: Cork
-    location_country: Ireland
-    academic_title: 'High School'
+    location_country: Irlanda
+    academic_title: 'Bachillerato'
     academic_center: 'St James Secondary School'
     academic_promotion: '2008'
     updated_at: '2012-01-01 01:01:01'
@@ -409,8 +409,8 @@ sfGuardUserProfile:
     birthday: '1982-06-20'
     photo: fd7757ba3dbde3469bfa6bde11ab7c902eb0d400.jpg
     location_town: 'New York'
-    location_country: USA
-    academic_title: 'BSc. Computer Science'
+    location_country: 'Estados Unidos de América'
+    academic_title: 'Ingeniería en Informática'
     academic_center: 'Stanford University'
     academic_promotion: '2004'
     updated_at: '2012-01-01 01:01:01'
@@ -429,8 +429,8 @@ sfGuardUserProfile:
     birthday: '1983-02-27'
     photo: 673204cb604ab14578dd034cc28d8804d56b855d.jpg
     location_town: 'Salt Lake City'
-    location_country: USA
-    academic_title: 'BSc. Finances'
+    location_country: 'Estados Unidos de América'
+    academic_title: 'Finanzas'
     academic_center: 'Virginia State'
     academic_promotion: '2005'
     updated_at: '2012-01-01 01:01:01'
@@ -449,8 +449,8 @@ sfGuardUserProfile:
     birthday: '1982-01-29'
     photo: ca7de5c90dcb9ddc4953a5c4e0fa01e527678e97.jpg
     location_town: Chicago
-    location_country: USA
-    academic_title: 'Md Pediatric'
+    location_country: 'Estados Unidos de América'
+    academic_title: 'Pediatría'
     academic_center: 'Kansas State University'
     academic_promotion: '2003'
     updated_at: '2012-01-01 01:01:01'
@@ -470,7 +470,7 @@ sfGuardUserProfile:
     photo: 53d69e0030fd130afb40510016c546eb6f0518f2.jpg
     location_town: Stockholm
     location_country: Sweden
-    academic_title: 'BSc. Economics'
+    academic_title: 'Económicas'
     academic_center: 'London School of Economics'
     academic_promotion: '2009'
     updated_at: '2012-01-01 01:01:01'
@@ -489,8 +489,8 @@ sfGuardUserProfile:
     birthday: '1985-01-07'
     photo: 9a6d5dd5ab2113e5cdb70ddc33b52fd4c02f2599.jpg
     location_town: 'Cape Town'
-    location_country: 'South Africa'
-    academic_title: 'High School'
+    location_country: 'Sudáfrica'
+    academic_title: 'Bachillerato'
     academic_center: 'Cape Town Senior High'
     academic_promotion: '2000'
     updated_at: '2012-01-01 01:01:01'
@@ -509,8 +509,8 @@ sfGuardUserProfile:
     birthday: '1980-11-29'
     photo: 3d1379193d712d52ca54d3fdbae4b56bec281a60.jpg
     location_town: Minneapolis
-    location_country: USA
-    academic_title: 'BSc. Economics'
+    location_country: 'Estados Unidos de América'
+    academic_title: 'Económicas'
     academic_center: 'Yale University'
     academic_promotion: '2001'
     updated_at: '2012-01-01 01:01:01'
@@ -529,8 +529,8 @@ sfGuardUserProfile:
     birthday: '1981-08-02'
     photo: 76bd1fccdf42111e351743172c00f3260ed7c0b4.jpg
     location_town: Boston
-    location_country: USA
-    academic_title: 'PhD. Physics'
+    location_country: 'Estados Unidos de América'
+    academic_title: 'Dr. Físicas'
     academic_center: 'Yale University'
     academic_promotion: '2007'
     updated_at: '2012-01-01 01:01:01'
@@ -550,7 +550,7 @@ sfGuardUserProfile:
     photo: 2aa0481d7686097adbaed1c0058ea38f8c52efd9.jpg
     location_town: Toronto
     location_country: Canada
-    academic_title: 'BSc. Psychology'
+    academic_title: 'Psicología'
     academic_center: 'Penn State University'
     academic_promotion: '2001'
     updated_at: '2012-01-01 01:01:01'
@@ -569,7 +569,7 @@ sfGuardUserProfile:
     birthday: '1982-06-03'
     photo: f8210cf50361dbe028db8f43ad253eabc3b08fa0.jpg
     location_town: 'San Francisco'
-    location_country: USA
+    location_country: 'Estados Unidos de América'
     academic_title: M.B.A.
     academic_center: 'Stanford University'
     academic_promotion: '2002'
@@ -589,8 +589,8 @@ sfGuardUserProfile:
     birthday: '1975-06-09'
     photo: bc9321681487b6084974ab6c345f2b00d249ad79.jpg
     location_town: Detroit
-    location_country: USA
-    academic_title: 'MSc. Electrical Engineering'
+    location_country: 'Estados Unidos de América'
+    academic_title: 'Ingeniería Eléctrica'
     academic_center: Caltech
     academic_promotion: '1997'
     updated_at: '2012-01-01 01:01:01'
@@ -609,8 +609,8 @@ sfGuardUserProfile:
     birthday: '1984-11-23'
     photo: 57199400c1beef044a5ce7aa751dad736d358aa3.jpg
     location_town: Dublin
-    location_country: Ireland
-    academic_title: 'BSc. Biology'
+    location_country: Irlanda
+    academic_title: 'Biología'
     academic_center: 'Trinity College Dublin'
     academic_promotion: '2004'
     updated_at: '2012-01-01 01:01:01'
@@ -629,8 +629,8 @@ sfGuardUserProfile:
     birthday: '1982-09-07'
     photo: 5bd7b4d3b65fc6a20394b1a3dfba2959ac7ac60a.jpg
     location_town: Manchester
-    location_country: UK
-    academic_title: 'BSc. Arts'
+    location_country: 'Reino Unido'
+    academic_title: 'Bellas Artes'
     academic_center: 'University of Sussex'
     academic_promotion: '2004'
     updated_at: '2012-01-01 01:01:01'
@@ -649,8 +649,8 @@ sfGuardUserProfile:
     birthday: '1981-12-04'
     photo: 01be078a058b58f26355eb1e9b254a4c8286ce37.jpg
     location_town: Miami
-    location_country: USA
-    academic_title: 'BSc. Economics'
+    location_country: 'Estados Unidos de América'
+    academic_title: 'Económicas'
     academic_center: 'Miami University'
     academic_promotion: '2003'
     updated_at: '2012-01-01 01:01:01'
@@ -669,8 +669,8 @@ sfGuardUserProfile:
     birthday: '1957-04-21'
     photo: 9b9d0f49f0beb3564a26a596e45ecae37489f4b5.jpg
     location_town: Limerick
-    location_country: Ireland
-    academic_title: 'High School'
+    location_country: Irlanda
+    academic_title: 'Bachillerato'
     academic_center: 'St Patrick Secondary College'
     academic_promotion: '1974'
     updated_at: '2012-01-01 01:01:01'
@@ -689,8 +689,8 @@ sfGuardUserProfile:
     birthday: '1983-01-15'
     photo: 933e82ba3467d8697a0bb5c62542d4424c8c69dc.jpg
     location_town: 'Los Angeles'
-    location_country: USA
-    academic_title: 'BSc. Politics'
+    location_country: 'Estados Unidos de América'
+    academic_title: 'Ciencias Políticas'
     academic_center: 'Harvard University'
     academic_promotion: '2005'
     updated_at: '2012-01-01 01:01:01'
@@ -709,8 +709,8 @@ sfGuardUserProfile:
     birthday: '1959-07-04'
     photo: 2f71809c781fbedfe9d7113c6ca8a611af331506.jpg
     location_town: Chicago
-    location_country: USA
-    academic_title: 'PhD. Computer Science'
+    location_country: 'Estados Unidos de América'
+    academic_title: 'Ingeniería en Informática'
     academic_center: 'Stanford University'
     academic_promotion: '1987'
     updated_at: '2012-01-01 01:01:01'
@@ -729,8 +729,8 @@ sfGuardUserProfile:
     birthday: '1987-01-06'
     photo: d9d17c6a81bfb3e76a72fcfd5895b6324ee60497.jpg
     location_town: London
-    location_country: UK
-    academic_title: 'High School'
+    location_country: 'Reino Unido'
+    academic_title: 'Bachillerato'
     academic_center: 'Nothing Hill Secondary School'
     academic_promotion: '2003'
     updated_at: '2012-01-01 01:01:01'
@@ -749,8 +749,8 @@ sfGuardUserProfile:
     birthday: '1982-10-04'
     photo: f0b3e0dbf75e6ec7510f15d301815e7362fb5ee1.jpg
     location_town: Liverpool
-    location_country: UK
-    academic_title: 'BSc. Arts'
+    location_country: 'Reino Unido'
+    academic_title: 'Bellas Artes'
     academic_center: 'University of Leeds'
     academic_promotion: '2004'
     updated_at: '2012-01-01 01:01:01'
@@ -769,8 +769,8 @@ sfGuardUserProfile:
     birthday: '1988-10-24'
     photo: b7645d6bba76cfb35d777475f5d59127d1ba3954.jpg
     location_town: London
-    location_country: UK
-    academic_title: 'BSc. Finances'
+    location_country: 'Reino Unido'
+    academic_title: 'Finanzas'
     academic_center: 'University of Leeds'
     academic_promotion: '2010'
     updated_at: '2012-01-01 01:01:01'
@@ -789,8 +789,8 @@ sfGuardUserProfile:
     birthday: '1983-10-09'
     photo: 70b41af6179393dcce9b35b5cb3580c7e2e9c407.jpg
     location_town: Boston
-    location_country: USA
-    academic_title: 'BSc. Finances'
+    location_country: 'Estados Unidos de América'
+    academic_title: 'Finanzas'
     academic_center: 'Yale University'
     academic_promotion: '2005'
     updated_at: '2012-01-01 01:01:01'
@@ -809,8 +809,8 @@ sfGuardUserProfile:
     birthday: '1991-02-03'
     photo: e90cefe682c2b64a5713fd5ba64457738508ffba.jpg
     location_town: 'Los Angeles'
-    location_country: USA
-    academic_title: 'High School'
+    location_country: 'Estados Unidos de América'
+    academic_title: 'Bachillerato'
     academic_center: 'George Washington Senior High'
     academic_promotion: '2006'
     updated_at: '2012-01-01 01:01:01'
@@ -829,8 +829,8 @@ sfGuardUserProfile:
     birthday: '1984-08-07'
     photo: accc7c9a17c2b2fc8e72a28399ce8077aad12c5a.jpg
     location_town: Atlanta
-    location_country: USA
-    academic_title: 'BSc. Geology'
+    location_country: 'Estados Unidos de América'
+    academic_title: 'Geología'
     academic_center: 'Cornell University'
     academic_promotion: '2006'
     updated_at: '2012-01-01 01:01:01'
@@ -844,84 +844,84 @@ Page:
   Page_1:
     owner_id: sfGuardUserProfile_5
     title: 'Vincent van Gogh'
-    description: 'Vincent Willem van Gogh was a Dutch post-Impressionist painter whose work, notable for its rough beauty, emotional honesty and bold color, had a far-reaching influence on 20th-century art. After years of painful anxiety and frequent bouts of mental illness, he died at the age of 37 from a gunshot wound, generally accepted to be self-inflicted (although no gun was ever found). His work was then known to only a handful of people and appreciated by fewer still.'
+    description: 'Vincent Willem van Gogh (Zundert, Países Bajos, 30 de marzo de 1853 – Auvers-sur-Oise, Francia, 29 de julio de 1890) fue un pintor neerlandés, uno de los principales exponentes del postimpresionismo. Pintó 900 cuadros (de ellos 27 autorretratos y 148 acuarelas) y 1.600 dibujos. La figura central en su vida fue su hermano menor Theo, quien continua y desinteresadamente le prestó apoyo financiero. La gran amistad entre ellos está documentada en las numerosas cartas que se intercambiaron desde agosto de 1872. Para Theo fueron unas 650 de sus 800 cartas conservadas; las otras son correspondencia con amigos y familiares.'
     photo: 7abf03ea277aaf1f5f29e87bcf1667bda9ca35f0.jpg
     updated_at: '2012-01-01 01:01:01'
   Page_2:
     owner_id: sfGuardUserProfile_5
     title: 'Francisco Goya'
-    description: 'Francisco José de Goya y Lucientes (30 March 1746–16 April 1828) was an Aragonese romantic painter and printmaker regarded both as the last of the Old Masters and the first of the moderns. Goya was a court painter to the Spanish Crown, and through his works was both a commentator on and chronicler of his era. The subversive imaginative element in his art, as well as his bold handling of paint, provided a model for the work of later generations of artists, notably Manet, Picasso and Francis Bacon. In his honour, Spain''s main national film awards are called the Goya Awards.'
+    description: 'Francisco José de Goya y Lucientes (Fuendetodos, Zaragoza, 30 de marzo de 1746 – Burdeos, Francia, 16 de abril de 1828), fue un pintor y grabador español. Su obra abarca la pintura de caballete y mural, el grabado y el dibujo. En todas estas facetas desarrolló un estilo que inaugura el Romanticismo. El arte goyesco supone, asimismo, el comienzo de la Pintura contemporánea, y se considera precursor de las vanguardias pictóricas del siglo XX.'
     photo: ebb7cfdedbfd4ce8580f7e14782814bebd501831.jpg
     updated_at: '2012-01-01 01:01:01'
   Page_3:
     owner_id: sfGuardUserProfile_5
     title: 'Paul Cézanne'
-    description: 'Paul Cézanne (1839–1906) was a French artist and Post-Impressionist painter whose work laid the foundations of the transition from the 19th century conception of artistic endeavour to a new and radically different world of art in the 20th century. Cézanne can be said to form the bridge between late 19th century Impressionism and the early 20th century''s new line of artistic enquiry, Cubism. The line attributed to both Matisse and Picasso that Cézanne "is the father of us all" cannot be easily dismissed.'
+    description: 'Paul Cézanne (19 de enero de 1839 – 22 de octubre de 1906) fue un pintor francés postimpresionista, considerado el padre de la pintura moderna, cuyas obras establecieron las bases de la transición entre la concepción artística decimonónica hacia el mundo artístico del siglo XX, nuevo y radicalmente diferente. Sin embargo, mientras vivió, Cézanne fue un pintor ignorado que trabajó en medio de un gran aislamiento. Desconfiaba de los críticos, tenía pocos amigos y, hasta 1895, expuso sólo de forma ocasional. Fue un «pintor de pintores», que la crítica y el público ignoraban, siendo apreciado sólo por algunos impresionistas y, al final de su vida, por la nueva generación.'
     photo: 3cf30904a07770a7a2f2096294967fc753e64994.jpg
     updated_at: '2012-01-01 01:01:01'
   Page_4:
     owner_id: sfGuardUserProfile_9
     title: 'Wolfgang Amadeus Mozart'
-    description: 'Wolfgang Amadeus Mozart (27 January 1756 – 5 December 1791), was a prolific and influential composer of the Classical era. '
+    description: 'Wolfgang Amadeus Mozart (Salzburgo, 27 de enero de 1756 – Viena, 5 de diciembre de 1791), fue un compositor y pianista austriaco, maestro del Clasicismo, considerado como uno de los músicos más influyentes y destacados de la historia.'
     photo: 37ec538b5c57608880909afbcdbcf88ac6edf422.jpg
     updated_at: '2012-01-01 01:01:01'
 Automsg:
   Automsg_1:
-    text: 'Welcome to Social Lab! <br/><br/>Your first assignment as a social hacker will be to become a friend of %s. <br/><br/>Good luck! ;)'
+    text: '¡Gracias por unirte a Social Lab! <br/><br/>Tu primera tarea como hacker social es conseguir la amistad de %s. <br/><br/>¡Buena suerte! ;)'
     user_id: sfGuardUserProfile_2
   Automsg_2:
-    text: 'Congratulations! <br/><br/>Is not a good policy to accept every stranger as a friend. <br/><br/>Your second assignment as a social hacker will be a little bit harder. Try to become a friend of %s. <br/><br/>Hint: Sometimes making up your profile is a good way to look familiar ;)'
+    text: '¡Enhorabuena! <br/><br/>No es una buena política aceptar como amigo a cualquier desconocido. <br/><br/>Tu segunda tarea como hacker social será un poco más difícil. Intenta conseguir la amistad de %s. <br/><br/>Pista: en ocasiones, adaptar tu perfil es una buena manera de parecer familiar ;)'
     user_id: sfGuardUserProfile_3
   Automsg_3:
-    text: 'You look familiar... Are you from Springfield?'
+    text: 'Tu cara me suena... ¿Eres de Springfield?'
   Automsg_4:
-    text: 'Well done! <br/><br/>Anybody can lie about their profile. <br/><br/>Your third assignment as a social hacker will be to become a friend of %s. <br/><br/>Hint: Is not only important what you ask, but how you ask it ;)'
+    text: '¡Bien hecho! <br/><br/>Cualquiera puede mentir en su perfil. <br/><br/>Tu tercera tarea como hacker social es conseguir la amistad de %s. <br/><br/>Pista: no solamente es importante lo que pides, sino cómo lo pides ;)'
     user_id: sfGuardUserProfile_4
   Automsg_5:
-    text: 'Do I know you?'
+    text: '¿Te conozco de algo?'
   Automsg_6:
     text: chin
   Automsg_7:
-    text: 'Wow! That was a good one! <br/><br/>Your forth assignment as social hacker is to become a friend of %s. <br/><br/>Hint: Friends will be friends... a great song, isn''t it?'
+    text: '¡Vaya! ¡Esa sí que fue buena! <br/><br/>Tu cuarta tarea como hacker social es conseguir la amistad de %s. <br/><br/>Pista: Friends will be friends... una bonita canción, ¿no crees?'
     user_id: sfGuardUserProfile_5
   Automsg_8:
-    text: 'Awesome! <br/><br/>It is easy to share a lot of friends with random people if your friends always accept any friendship request }:) <br/><br>Your fifth assignment as a social hacker will be to become a friend of %s. <br/><br>Hint: No fun without fans.'
+    text: '¡Perfecto! <br/><br/>Es fácil compartir muchos amigos con desconocidos si tus amigos aceptan a cualquiera que se lo solicite }:) <br/><br>Tu quinta tarea como hacker social es conseguir la amistad de %s. <br/><br>Pista: no hay "fun" sin fans.'
     user_id: sfGuardUserProfile_6
   Automsg_9:
-    text: 'Fantastic!<br/><br/>Sharing likes is another good way to look friendly.<br/><br/>Your sixth assignment as a social hacker will be to become a friend of %s.<br/><br/>Hint: A chain is only as strong as its weakest link.'
+    text: '¡Fantástico!<br/><br/>Compartir gustos es otra buena manera de parecer familiar.<br/><br/>Tu sexta tarea como hacker social es conseguir la amistad de %s.<br/><br/>Pista: una cadena es tan fuerte como su eslabón más débil.'
     user_id: sfGuardUserProfile_7
   Automsg_10:
-    text: 'You are good at this! <br/><br/>Not all friends from social networks are really trustworthy. <br/><br/>Your seventh assignment as a social hacker will be to become a friend of %s. <br/><br/>Hint: You''re it! ;)'
+    text: '¡Se te da bien esto! <br/><br/>No todos los amigos de una red social son realmente de confianza. <br/><br/>Tu séptima tarea como hacker social es conseguir la amistad de %s. <br/><br/>Pista: imprescindible vestir de etiqueta ;)'
     user_id: sfGuardUserProfile_8
   Automsg_11:
-    text: 'You have mad skills! <br/><br/>Tagging common friends is another way to look friendly. <br/><br/>Your eighth assignment as a social hacker will be to become a friend of %s. <br/><br/>Hint: Mine is better than everything else.'
+    text: '¡Tus habilidades son impresionantes! <br/><br/>Etiquetar amigos comunes es otra de las formas de parecer de confianza. <br/><br/>Tu octava tarea como hacker social es conseguir la amistad de %s. <br/><br/>Pista: la mía es mejor que todas las demás.'
     user_id: sfGuardUserProfile_9
   Automsg_12:
-    text: 'That was impressive! <br/><br/>Narcissistic people love to have tons of followers. <br/><br/>Your ninth assignment as a social hacker will be to become a friend of %s. <br/><br/>Hint: Sometimes you don''t want to be tagged in silly pictures, other times you do ;)'
+    text: '¡Eso fue alucinante! <br/><br/>La gente narcisista adora tener miles de fans. <br/><br/>Tu novena tarea como hacker social es conseguir la amistad de %s. <br/><br/>Pista: en ocasiones es horrible ser etiquetado en fotos tontas, en otras ocasiones no tanto ;)'
     user_id: sfGuardUserProfile_10
   Automsg_13:
-    text: 'I love to tag friends in my pictures!'
+    text: '¡Me encanta etiquetar a mis amigos en mis fotos!'
   Automsg_14:
-    text: 'Unbelievable! <br/><br/>There is a subtle but important difference between tagging and being tagged when friendliness matters. <br/><br/>Your tenth assignment as a social hacker will be to become a friend of %s. <br/><br/>Hint: Unleash your previous knowledge, you will need it all.'
+    text: '¡Increíble! <br/><br/>Hay una diferencia sutil pero importante entre etiquetar y ser etiquetado cuando se trata de parecer de confianza. <br/><br/>Tu décima tarea como hacker social es conseguir la amistad de %s. <br/><br/>Pista: recuerda todo lo aprendido hasta ahora, lo necesitarás.'
     user_id: sfGuardUserProfile_11
   Automsg_15:
-    text: 'You are a true social hacker now!! <br/><br/>But remember, with great power comes great responsibility ;) <br/><br/>Thanks for playing!<br/><br/>Please, do not hesitate to contact us if you have any question, comment or suggestion.'
+    text: '¡¡Verdaderamente dominas el social hacking!! <br/><br/>Pero recuerda, un gran poder exige una gran responsabilidad ;) <br/><br/>¡Gracias por jugar!<br/><br/>Por favor, no dudes en contactar con nosotros si tienes alguna cuestión, comentario o sugerencia.'
   Automsg_16:
-    text: congrat
+    text: feli
 Message:
   Message_1:
     from_id: sfGuardUserProfile_3
     to_id: sfGuardUserProfile_3
     is_public: '1'
     is_unread: '0'
-    text: 'Watching sports...'
+    text: 'Viendo la tele...'
     updated_at: '2012-01-01 01:01:01'
   Message_2:
     from_id: sfGuardUserProfile_2
     to_id: sfGuardUserProfile_2
     is_public: '1'
     is_unread: '0'
-    text: 'Reading a book :)'
+    text: 'Leyendo un libro :)'
     updated_at: '2012-01-01 01:01:01'
   Message_5:
     from_id: sfGuardUserProfile_4
@@ -935,28 +935,28 @@ Message:
     to_id: sfGuardUserProfile_5
     is_public: '1'
     is_unread: '0'
-    text: 'Busy, very busy...'
+    text: 'Opcupado, muy ocupado...'
     updated_at: '2012-01-01 01:01:01'
   Message_7:
     from_id: sfGuardUserProfile_6
     to_id: sfGuardUserProfile_6
     is_public: '1'
     is_unread: '0'
-    text: 'Road trip!'
+    text: '¡Nos vamos de acampada!'
     updated_at: '2012-01-01 01:01:01'
   Message_8:
     from_id: sfGuardUserProfile_7
     to_id: sfGuardUserProfile_7
     is_public: '1'
     is_unread: '0'
-    text: '1st of my prom! yahoooooo!!!'
+    text: '¡Primero de mi promoción! ¡¡¡bien!!!'
     updated_at: '2012-01-01 01:01:01'
   Message_9:
     from_id: sfGuardUserProfile_9
     to_id: sfGuardUserProfile_9
     is_public: '1'
     is_unread: '0'
-    text: 'A new canvas, my set of brushes and the whole afternoon free... yay!'
+    text: 'Un nuevo lienzo, mis pinceles y una tare de entera libre...'
     updated_at: '2012-01-01 01:01:01'
   Message_10:
     from_id: sfGuardUserProfile_8
@@ -970,21 +970,21 @@ Message:
     to_id: sfGuardUserProfile_10
     is_public: '1'
     is_unread: '0'
-    text: Hiking!
+    text: '¡Al monte!'
     updated_at: '2012-01-01 01:01:01'
   Message_12:
     from_id: sfGuardUserProfile_11
     to_id: sfGuardUserProfile_11
     is_public: '1'
     is_unread: '0'
-    text: TGIF!
+    text: '¡Por fin es viernes!'
     updated_at: '2012-01-01 01:01:01'
   Message_14:
     from_id: sfGuardUserProfile_21
     to_id: sfGuardUserProfile_21
     is_public: '1'
     is_unread: '0'
-    text: 'I love San Francisco!'
+    text: 'Me encanta San Francisco!'
     updated_at: '2012-01-01 01:01:01'
   Message_15:
     from_id: sfGuardUserProfile_12
@@ -998,118 +998,118 @@ Message:
     to_id: sfGuardUserProfile_15
     is_public: '1'
     is_unread: '0'
-    text: 'Just married! :)'
+    text: '¡Recién casado! :)'
     updated_at: '2012-01-01 01:01:01'
   Message_17:
     from_id: sfGuardUserProfile_14
     to_id: sfGuardUserProfile_21
     is_public: '0'
     is_unread: '1'
-    text: 'I love to tag friends in my pictures!'
+    text: '¡Me encanta etiquetar a mis amigos en mis fotos!'
     updated_at: '2012-01-01 01:01:01'
   Message_18:
     from_id: sfGuardUserProfile_16
     to_id: sfGuardUserProfile_16
     is_public: '1'
     is_unread: '0'
-    text: 'Coding my own operating system... interesting! :)'
+    text: 'Programando mi propio sistema operativo... ¡interesante! :)'
     updated_at: '2012-01-01 01:01:01'
   Message_19:
     from_id: sfGuardUserProfile_18
     to_id: sfGuardUserProfile_18
     is_public: '1'
     is_unread: '0'
-    text: 'At the stage!'
+    text: '¡En el escenario!'
     updated_at: '2012-01-01 01:01:01'
   Message_20:
     from_id: sfGuardUserProfile_17
     to_id: sfGuardUserProfile_17
     is_public: '1'
     is_unread: '0'
-    text: 'Reading a book...'
+    text: 'Leyendo un libro...'
     updated_at: '2012-01-01 01:01:01'
   Message_21:
     from_id: sfGuardUserProfile_19
     to_id: sfGuardUserProfile_19
     is_public: '1'
     is_unread: '0'
-    text: 'I need to relax...'
+    text: 'Necesito relajarme...'
     updated_at: '2012-01-01 01:01:01'
   Message_22:
     from_id: sfGuardUserProfile_20
     to_id: sfGuardUserProfile_20
     is_public: '1'
     is_unread: '0'
-    text: 'Updating my blog :)'
+    text: 'Actualizando mi blog :)'
     updated_at: '2012-01-01 01:01:01'
   Message_23:
     from_id: sfGuardUserProfile_23
     to_id: sfGuardUserProfile_23
     is_public: '1'
     is_unread: '0'
-    text: 'Great party tonight!'
+    text: '¡Una fiesta increíble esta noche!'
     updated_at: '2012-01-01 01:01:01'
   Message_24:
     from_id: sfGuardUserProfile_22
     to_id: sfGuardUserProfile_22
     is_public: '1'
     is_unread: '0'
-    text: 'Another promotion leaves the university, congratulations!'
+    text: 'Otra promoción sale de la universidad, ¡enhorabuena!'
     updated_at: '2012-01-01 01:01:01'
   Message_25:
     from_id: sfGuardUserProfile_25
     to_id: sfGuardUserProfile_25
     is_public: '1'
     is_unread: '0'
-    text: Skateboarding!
+    text: '¡A patinar!'
     updated_at: '2012-01-01 01:01:01'
   Message_26:
     from_id: sfGuardUserProfile_24
     to_id: sfGuardUserProfile_24
     is_public: '1'
     is_unread: '0'
-    text: 'Listening to music...'
+    text: 'Escuchando música...'
     updated_at: '2012-01-01 01:01:01'
   Message_27:
     from_id: sfGuardUserProfile_27
     to_id: sfGuardUserProfile_27
     is_public: '1'
     is_unread: '0'
-    text: 'Flying to Paris!'
+    text: '¡Volando hacia Paris!'
     updated_at: '2012-01-01 01:01:01'
   Message_28:
     from_id: sfGuardUserProfile_28
     to_id: sfGuardUserProfile_28
     is_public: '1'
     is_unread: '0'
-    text: Climbing!
+    text: '¡A escalar!'
     updated_at: '2012-01-01 01:01:01'
   Message_30:
     from_id: sfGuardUserProfile_26
     to_id: sfGuardUserProfile_26
     is_public: '1'
     is_unread: '0'
-    text: 'Let''s go dancing :)'
+    text: 'Salgamos a bailar :)'
     updated_at: '2012-01-01 01:01:01'
 Picture:
   Picture_1:
     owner_id: sfGuardUserProfile_14
-    title: 'Be happy!'
+    title: '¡Sé feliz!'
     photo: 77f74b1a0428c33f43fe13f272b85d4266676141.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_2:
     owner_id: sfGuardUserProfile_2
-    title: Jump!
+    title: ¡Salta!
     photo: a2645c8f60f1ac56a69b7713058aaa70511eb80b.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_3:
     owner_id: sfGuardUserProfile_3
-    title: 'At the park'
+    title: 'En el parque'
     photo: 63567f30cc053066b1f63cb1ff9982c00139b3f2.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_4:
     owner_id: sfGuardUserProfile_4
-    title: Hello!
+    title: '¡Hola!'
     photo: f93e74fca94ff9b5ede1807f3698ccbb4ad4be32.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_5:
@@ -1119,17 +1119,17 @@ Picture:
     updated_at: '2012-01-01 01:01:01'
   Picture_6:
     owner_id: sfGuardUserProfile_6
-    title: Jungle
+    title: Jungla
     photo: 309d4198b2e26ba92a7e997844d876b1c3a14d49.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_7:
     owner_id: sfGuardUserProfile_6
-    title: 'The valley'
+    title: 'El valle'
     photo: 3891ff1c2b3b8cc65dd20381b6af7624c686d3be.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_8:
     owner_id: sfGuardUserProfile_6
-    title: Lake
+    title: Lago
     photo: cd7a82f65568c6c9c4249fafc1c257af63b8facd.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_9:
@@ -1139,32 +1139,32 @@ Picture:
     updated_at: '2012-01-01 01:01:01'
   Picture_10:
     owner_id: sfGuardUserProfile_7
-    title: Yahooooo!
+    title: '¡Hurra!'
     photo: 3316f31b486ed2096a968a62f969fe472e2f9d7f.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_11:
     owner_id: sfGuardUserProfile_7
-    title: 'Very happy :)'
+    title: 'Muy feliz :)'
     photo: c933b5fe269311ff85e0f102bd3d0b13e108c5df.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_12:
     owner_id: sfGuardUserProfile_9
-    title: 'Me & Elisabeth'
+    title: 'Elisabeth y yo'
     photo: 74ef8c28e69b650791d83006043ac97545877198.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_13:
     owner_id: sfGuardUserProfile_10
-    title: Summit
+    title: Cima
     photo: c5231f1937203b94f3f03efde81046efd56853ca.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_14:
     owner_id: sfGuardUserProfile_11
-    title: 'Nice day'
+    title: 'Día agradable'
     photo: 4c37055d6b38f1c10c1bfb4e3bce79bb234c0f33.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_15:
     owner_id: sfGuardUserProfile_21
-    title: 'Me & Linda'
+    title: 'Linda y yo'
     photo: 7fe39a7a3c12635b1d76be3902b3b45acea0a320.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_16:
@@ -1174,72 +1174,72 @@ Picture:
     updated_at: '2012-01-01 01:01:01'
   Picture_17:
     owner_id: sfGuardUserProfile_21
-    title: 'Some rest'
+    title: 'Un descanso'
     photo: fbb0bbba386dfbbfb6aaabacd76cdd8e87a4c274.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_18:
     owner_id: sfGuardUserProfile_12
-    title: 'The crew'
+    title: 'La pandilla'
     photo: 16e492e3ddb123ea44a4b13771236f4abed5da8b.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_19:
     owner_id: sfGuardUserProfile_15
-    title: Happiness
+    title: Felicidad
     photo: 09b9b48952b396920b418fab4e1ef2f71d93d9f1.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_20:
     owner_id: sfGuardUserProfile_15
-    title: 'The best day of my life'
+    title: 'El mejor día de mi vida'
     photo: d6e14990e5f86389b640f6738b838f4744c2112d.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_21:
     owner_id: sfGuardUserProfile_14
-    title: 'Calm down'
+    title: 'Calma'
     photo: 49732294e7dd633232fc1b82352b76241cc9b73e.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_22:
     owner_id: sfGuardUserProfile_16
-    title: 'Old farm'
+    title: 'Vieja granja'
     photo: 409af11bb719bc4f78613a1e424e99b9b27e37fe.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_23:
     owner_id: sfGuardUserProfile_18
-    title: 'Home sweet home'
+    title: 'Hogar dulce hogar'
     photo: c7c29d95a0abe403bccba4bc133b645469a450ca.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_24:
     owner_id: sfGuardUserProfile_19
-    title: Thinking
+    title: Pensando
     photo: 2732311724f3593371f50e83d7471bd1c7594a4f.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_25:
     owner_id: sfGuardUserProfile_20
-    title: Hiking
+    title: Senderismo
     photo: 00d11a6ba4a3b2fd2717a41506ee80982b9e9634.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_26:
     owner_id: sfGuardUserProfile_22
-    title: Graduation
+    title: 'Graduación'
     photo: 1b1bf3300525a5b32c5e9411fad81d2a9f224a8e.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_27:
     owner_id: sfGuardUserProfile_24
-    title: 'Having fun'
+    title: 'Diversión'
     photo: f2df12f1e59d27a1694cec0a8adbac0fc4e78395.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_28:
     owner_id: sfGuardUserProfile_27
-    title: 'Lovely place'
+    title: 'Lugar maravilloso'
     photo: 96d560f134d9ff84ab352f7f85d825dba0f948de.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_29:
     owner_id: sfGuardUserProfile_28
-    title: Smile!
+    title: '¡Sonríe!'
     photo: d63d7d668983fe280098134c90467e54129dee72.jpg
     updated_at: '2012-01-01 01:01:01'
   Picture_30:
     owner_id: sfGuardUserProfile_28
-    title: 'Almost there'
+    title: 'Falta poco'
     photo: dc94231888215a8c6182061c587bc81e7945325c.jpg
     updated_at: '2012-01-01 01:01:01'
 Bot:
@@ -1504,11 +1504,11 @@ Step:
     step_order: '1'
 Status:
   Status_1:
-    name: accepted
+    name: aceptada
   Status_2:
-    name: rejected
+    name: rechazada
   Status_3:
-    name: pending
+    name: pendiente
 Fan:
   Fan_1:
     page_id: Page_1
@@ -1619,235 +1619,235 @@ Request:
   Request_1:
     from_id: sfGuardUserProfile_5
     to_id: sfGuardUserProfile_12
-    text: 'Hello Kate!'
+    text: '¡Hola Kate!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_2:
     from_id: sfGuardUserProfile_7
     to_id: sfGuardUserProfile_13
-    text: 'Hi Laura!'
+    text: '¡Hola Laura!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_3:
     from_id: sfGuardUserProfile_8
     to_id: sfGuardUserProfile_13
-    text: 'Hello Laura!'
+    text: '¡Hola Laura!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_4:
     from_id: sfGuardUserProfile_14
     to_id: sfGuardUserProfile_10
-    text: 'Hi Igor!'
+    text: '¡Hola Igor!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_5:
     from_id: sfGuardUserProfile_16
     to_id: sfGuardUserProfile_11
-    text: 'Hello Jack!'
+    text: '¡Hola Jack!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_6:
     from_id: sfGuardUserProfile_15
     to_id: sfGuardUserProfile_16
-    text: 'Hi there!'
+    text: '¡Hola there!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_7:
     from_id: sfGuardUserProfile_2
     to_id: sfGuardUserProfile_19
-    text: 'Hi Ryan!'
+    text: '¡Hola Ryan!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_8:
     from_id: sfGuardUserProfile_19
     to_id: sfGuardUserProfile_11
-    text: 'Hi Jack!'
+    text: '¡Hola Jack!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_9:
     from_id: sfGuardUserProfile_3
     to_id: sfGuardUserProfile_18
-    text: 'Hi Peter!'
+    text: '¡Hola Peter!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_10:
     from_id: sfGuardUserProfile_3
     to_id: sfGuardUserProfile_25
-    text: 'Hi Alan!'
+    text: '¡Hola Alan!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_11:
     from_id: sfGuardUserProfile_3
     to_id: sfGuardUserProfile_21
-    text: 'Hello Tom!'
+    text: '¡Hola Tom!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_12:
     from_id: sfGuardUserProfile_4
     to_id: sfGuardUserProfile_21
-    text: 'Hi Tom!'
+    text: '¡Hola Tom!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_13:
     from_id: sfGuardUserProfile_4
     to_id: sfGuardUserProfile_26
-    text: 'Hello Brenda!'
+    text: '¡Hola Brenda!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_14:
     from_id: sfGuardUserProfile_4
     to_id: sfGuardUserProfile_25
-    text: 'Hi Alan!'
+    text: '¡Hola Alan!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_15:
     from_id: sfGuardUserProfile_5
     to_id: sfGuardUserProfile_23
-    text: 'Hi Will!'
+    text: '¡Hola Will!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_16:
     from_id: sfGuardUserProfile_5
     to_id: sfGuardUserProfile_17
-    text: 'Hi Olivia!'
+    text: '¡Hola Olivia!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_17:
     from_id: sfGuardUserProfile_7
     to_id: sfGuardUserProfile_22
-    text: 'Hi Vince!'
+    text: '¡Hola Vince!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_18:
     from_id: sfGuardUserProfile_8
     to_id: sfGuardUserProfile_25
-    text: 'Hi Alan!'
+    text: '¡Hola Alan!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_19:
     from_id: sfGuardUserProfile_8
     to_id: sfGuardUserProfile_22
-    text: 'Hello Vince!'
+    text: '¡Hola Vince!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_20:
     from_id: sfGuardUserProfile_8
     to_id: sfGuardUserProfile_28
-    text: 'Hi Fred!'
+    text: '¡Hola Fred!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_21:
     from_id: sfGuardUserProfile_8
     to_id: sfGuardUserProfile_20
-    text: 'Hello Sally!'
+    text: '¡Hola Sally!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_22:
     from_id: sfGuardUserProfile_8
     to_id: sfGuardUserProfile_23
-    text: 'Hi Will!'
+    text: '¡Hola Will!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_23:
     from_id: sfGuardUserProfile_9
     to_id: sfGuardUserProfile_6
-    text: 'Hi Elisabeth!'
+    text: '¡Hola Elisabeth!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_24:
     from_id: sfGuardUserProfile_10
     to_id: sfGuardUserProfile_25
-    text: 'Hi Alan!'
+    text: '¡Hola Alan!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_25:
     from_id: sfGuardUserProfile_10
     to_id: sfGuardUserProfile_24
-    text: 'Hi Zoey!'
+    text: '¡Hola Zoey!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_26:
     from_id: sfGuardUserProfile_11
     to_id: sfGuardUserProfile_24
-    text: 'Hi Zoey!'
+    text: '¡Hola Zoey!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_27:
     from_id: sfGuardUserProfile_11
     to_id: sfGuardUserProfile_28
-    text: 'Hi Fred!'
+    text: '¡Hola Fred!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_28:
     from_id: sfGuardUserProfile_11
     to_id: sfGuardUserProfile_20
-    text: 'Hello Sally!'
+    text: '¡Hola Sally!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_29:
     from_id: sfGuardUserProfile_11
     to_id: sfGuardUserProfile_21
-    text: 'Hi Tom!'
+    text: '¡Hola Tom!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_30:
     from_id: sfGuardUserProfile_21
     to_id: sfGuardUserProfile_14
-    text: 'Hi Linda!'
+    text: '¡Hola Linda!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_31:
     from_id: sfGuardUserProfile_15
     to_id: sfGuardUserProfile_25
-    text: 'Hi Alan!'
+    text: '¡Hola Alan!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_32:
     from_id: sfGuardUserProfile_15
     to_id: sfGuardUserProfile_24
-    text: 'Hi Zoey!'
+    text: '¡Hola Zoey!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_33:
     from_id: sfGuardUserProfile_15
     to_id: sfGuardUserProfile_17
-    text: 'Hi Olivia!'
+    text: '¡Hola Olivia!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_34:
     from_id: sfGuardUserProfile_18
     to_id: sfGuardUserProfile_25
-    text: 'Hi Alan!'
+    text: '¡Hola Alan!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_35:
     from_id: sfGuardUserProfile_18
     to_id: sfGuardUserProfile_24
-    text: 'Hi Zoey!'
+    text: '¡Hola Zoey!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_36:
     from_id: sfGuardUserProfile_20
     to_id: sfGuardUserProfile_24
-    text: 'Hi Zoey!'
+    text: '¡Hola Zoey!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_37:
     from_id: sfGuardUserProfile_20
     to_id: sfGuardUserProfile_22
-    text: 'Hi Vince!'
+    text: '¡Hola Vince!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_38:
     from_id: sfGuardUserProfile_27
     to_id: sfGuardUserProfile_26
-    text: 'Hi Brenda!'
+    text: '¡Hola Brenda!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
   Request_39:
     from_id: sfGuardUserProfile_27
     to_id: sfGuardUserProfile_28
-    text: 'Hello Fred!'
+    text: '¡Hola Fred!'
     status: Status_1
     updated_at: '2012-01-01 01:01:01'
 Friendship:
