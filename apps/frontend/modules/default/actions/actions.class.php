@@ -95,10 +95,12 @@ class defaultActions extends sfActions
             $automsg = $step->getAutomsg();
             $text = $automsg->getText();
             $profile = $automsg->getsfGuardUserProfile();
+            $profile = sfGuardUserProfilePeer::retrieveByPk($task->getToId());
+            $code =  $profile->getFirstName()." ".$codes[$step->getStepOrder()];
             if ($profile)
             {
               $link = '<a href="/profile/show/?id='.$profile->getId().'">'.$profile.'</a>';
-              $text = sprintf($text, $link);
+              $text = sprintf($text, $code, $link);
             }
             Social::sendMessage(sfConfig::get('app_system_id'), $task->getToId(), $text, false);
             $task->setStep($task->getStep() + 1);
@@ -107,12 +109,10 @@ class defaultActions extends sfActions
             $automsg = $step->getAutomsg();
             $text = $automsg->getText();
             $profile = $automsg->getsfGuardUserProfile();
-            $profile = sfGuardUserProfilePeer::retrieveByPk($task->getToId());
-            $code =  $profile->getFirstName()." ".$codes[$step->getStepOrder()];
             if ($profile)
             {
               $link = '<a href="/profile/show/?id='.$profile->getId().'">'.$profile.'</a>';
-              $text = sprintf($text, $code, $link);
+              $text = sprintf($text, $link);
             }
             Social::sendMessage($task->getFromId(), $task->getToId(), $text, false);
             $task->setStep($task->getStep() + 1);
