@@ -870,7 +870,7 @@ Automsg:
     text: '¡Gracias por unirte a Social Lab! <br/><br/>Tu primera tarea como hacker social es conseguir la amistad de %s. <br/><br/>¡Buena suerte! ;)'
     user_id: sfGuardUserProfile_2
   Automsg_2:
-    text: '¡Enhorabuena! <br/><br/>No es una buena política aceptar como amigo a cualquier desconocido. <br/><br/>Tu segunda tarea como hacker social será un poco más difícil. Intenta conseguir la amistad de %s. <br/><br/>Pista: en ocasiones, adaptar tu perfil es una buena manera de parecer familiar ;)'
+    text: '¡Enhorabuena! <br/><br/>Tu código por haber superado este paso es %s. No es una buena política aceptar como amigo a cualquier desconocido. <br/><br/>Tu segunda tarea como hacker social será un poco más difícil. Intenta conseguir la amistad de %s. <br/><br/>Pista: en ocasiones, adaptar tu perfil es una buena manera de parecer familiar ;)'
     user_id: sfGuardUserProfile_3
   Automsg_3:
     text: 'Tu cara me suena... ¿Eres de Springfield?'

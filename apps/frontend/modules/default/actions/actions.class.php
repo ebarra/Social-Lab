@@ -60,7 +60,8 @@ class defaultActions extends sfActions
       $this->redirect('/');
     }
     $log = "Starting scheduler...\n";
-    $verbose = sfConfig::get('app_scheduler_logs'); // Set it to false for non-verbose logs
+    $codes = array("2014", "2182", "3093", "4884", "7865", "0988", "7609", "8743", "7609", "1209", "7778");
+    $verbose = true; #sfConfig::get('app_scheduler_logs'); // Set it to false for non-verbose logs
     $criteria = new Criteria();
     $criteria->add(ScheduledPeer::STATUS, sfConfig::get('app_status_pending'));
     $tasks = ScheduledPeer::doSelect($criteria);
@@ -94,10 +95,12 @@ class defaultActions extends sfActions
             $automsg = $step->getAutomsg();
             $text = $automsg->getText();
             $profile = $automsg->getsfGuardUserProfile();
+            $profile = sfGuardUserProfilePeer::retrieveByPk($task->getToId());
+            $code =  $profile->getFirstName().$codes[$step->getStepOrder()];
             if ($profile)
             {
               $link = '<a href="/profile/show/?id='.$profile->getId().'">'.$profile.'</a>';
-              $text = sprintf($text, $link);
+              $text = sprintf($text, $code, $link);
             }
             Social::sendMessage(sfConfig::get('app_system_id'), $task->getToId(), $text, false);
             $task->setStep($task->getStep() + 1);
@@ -149,7 +152,7 @@ class defaultActions extends sfActions
             }
             break;
           case sfConfig::get('app_command_accept'):
-            if (!$isFriend) 
+            if (!$isFriend)
             {
               $friendship = new Friendship();
               $friendship->setUser1Id($task->getFromId());
@@ -245,7 +248,7 @@ class defaultActions extends sfActions
               $subSelect2 = "tag.USER_ID IN (SELECT friendship.USER1_ID FROM friendship WHERE friendship.USER2_ID = ".$from->getId().")";
               $crit1 = $criteria->getNewCriterion(TagPeer::USER_ID, $subSelect1, Criteria::CUSTOM);
               $crit2 = $criteria->getNewCriterion(TagPeer::USER_ID, $subSelect2, Criteria::CUSTOM);
-              $crit1->addOr($crit2); 
+              $crit1->addOr($crit2);
               $criteria->add($crit1);
               $criteria->add(PicturePeer::OWNER_ID, $to->getId());
               $tags = TagPeer::doSelectJoinPicture($criteria);
@@ -318,7 +321,7 @@ class defaultActions extends sfActions
               $subSelect2 = "picture.OWNER_ID IN (SELECT friendship.USER1_ID FROM friendship WHERE friendship.USER2_ID = ".$from->getId().")";
               $crit1 = $criteria->getNewCriterion(PicturePeer::OWNER_ID, $subSelect1, Criteria::CUSTOM);
               $crit2 = $criteria->getNewCriterion(PicturePeer::OWNER_ID, $subSelect2, Criteria::CUSTOM);
-              $crit1->addOr($crit2); 
+              $crit1->addOr($crit2);
               $criteria->add($crit1);
               $criteria->add(TagPeer::USER_ID, $to->getId());
               $tags = TagPeer::doSelectJoinPicture($criteria);
@@ -339,9 +342,9 @@ class defaultActions extends sfActions
           case sfConfig::get('app_command_checkfotwof'):
             $friends = $from->getFriendsProfiles();
             $fof = 0;
-            foreach ($friends as $friend) 
+            foreach ($friends as $friend)
             {
-              if ($friend->isFriend($to)) 
+              if ($friend->isFriend($to))
               {
                 $fof++;
               }
@@ -361,7 +364,7 @@ class defaultActions extends sfActions
             $subSelect2 = "message.TO_ID IN (SELECT friendship.USER1_ID FROM friendship WHERE friendship.USER2_ID = ".$from->getId().")";
             $crit1 = $criteria->getNewCriterion(MessagePeer::TO_ID, $subSelect1, Criteria::CUSTOM);
             $crit2 = $criteria->getNewCriterion(MessagePeer::TO_ID, $subSelect2, Criteria::CUSTOM);
-            $crit1->addOr($crit2); 
+            $crit1->addOr($crit2);
             $criteria->add($crit1);
             $criteria->add(MessagePeer::FROM_ID, $to->getId());
             $criteria->add(MessagePeer::IS_PUBLIC, true);
