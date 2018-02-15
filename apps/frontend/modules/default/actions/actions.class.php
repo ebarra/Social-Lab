@@ -60,7 +60,7 @@ class defaultActions extends sfActions
       $this->redirect('/');
     }
     $log = "Starting scheduler...\n";
-    $codes = array("2014", "2182", "3093", "4884", "7865", "0988", "7609", "8743", "7609", "1209", "7778");
+    $codes = array("2014", "2182", "3093", "4884", "7865", "0988", "7609", "8743", "7609", "1209", "7778", "0954", "4309", "8767", "6509", "6578", "2279", "1090", "0969");
     $verbose = true; #sfConfig::get('app_scheduler_logs'); // Set it to false for non-verbose logs
     $criteria = new Criteria();
     $criteria->add(ScheduledPeer::STATUS, sfConfig::get('app_status_pending'));
@@ -95,12 +95,14 @@ class defaultActions extends sfActions
             $automsg = $step->getAutomsg();
             $text = $automsg->getText();
             $profile = $automsg->getsfGuardUserProfile();
-            $profile = sfGuardUserProfilePeer::retrieveByPk($task->getToId());
-            $code =  $profile->getFirstName().$codes[$step->getStepOrder()];
+            $userprofile = sfGuardUserProfilePeer::retrieveByPk($task->getToId());
+            $code =  $userprofile->getFirstName().$codes[$step->getStepOrder()];
             if ($profile)
             {
               $link = '<a href="/profile/show/?id='.$profile->getId().'">'.$profile.'</a>';
               $text = sprintf($text, $code, $link);
+            } else {
+              $text = sprintf($text, $code);
             }
             Social::sendMessage(sfConfig::get('app_system_id'), $task->getToId(), $text, false);
             $task->setStep($task->getStep() + 1);

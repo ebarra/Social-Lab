@@ -130,4 +130,10 @@ A more complex example:
  php -d memory_limit=256M symfony propel:data-load
  sudo chmod -R 777 /home/isabel/mysociallab/web/uploads/profiles
  sudo chmod -R 777 /home/isabel/mysociallab/log
- 
+
+ Set up cron job to delete old scheduled tasks
+ ----------------------------------------------
+ In the scripts folder there is an script to delete old scheduled tasks.
+ Edit it with your db password
+ Set up a cron job once a day to delete old scheduled tasks like this:
+ * 3 * * * /home/isabel/mysociallab/scripts/clean_scheduled_tasks.sh

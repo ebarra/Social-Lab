@@ -348,8 +348,8 @@ sfGuardUserProfile:
     gender: Gender_2
     birthday: '1986-02-03'
     photo: 7476be7562de5bcd6c57370f7efd9c1f373897e4.jpg
-    location_town: Washington
-    location_country: 'Estados Unidos de América'
+    location_town: Pekin
+    location_country: 'China'
     academic_title: 'Dr. Físicas'
     academic_center: 'University of Kansas'
     academic_promotion: '2005'
@@ -870,42 +870,42 @@ Automsg:
     text: '¡Gracias por unirte a Social Lab! <br/><br/>Tu primera tarea como hacker social es conseguir la amistad de %s. <br/><br/>¡Buena suerte! ;)'
     user_id: sfGuardUserProfile_2
   Automsg_2:
-    text: '¡Enhorabuena! <br/><br/>Tu código por haber superado este paso es %s. No es una buena política aceptar como amigo a cualquier desconocido. <br/><br/>Tu segunda tarea como hacker social será un poco más difícil. Intenta conseguir la amistad de %s. <br/><br/>Pista: en ocasiones, adaptar tu perfil es una buena manera de parecer familiar ;)'
+    text: '¡Enhorabuena! <br/><br/>Tu código por haber superado este paso es %s.<br/>No es una buena política aceptar como amigo a cualquier desconocido. <br/><br/>Tu segunda tarea como hacker social será un poco más difícil. Intenta conseguir la amistad de %s. <br/><br/>Pista: en ocasiones, adaptar tu perfil es una buena manera de parecer familiar ;)'
     user_id: sfGuardUserProfile_3
   Automsg_3:
     text: 'Tu cara me suena... ¿Eres de Springfield?'
   Automsg_4:
-    text: '¡Bien hecho! <br/><br/>Cualquiera puede mentir en su perfil. <br/><br/>Tu tercera tarea como hacker social es conseguir la amistad de %s. <br/><br/>Pista: no solamente es importante lo que pides, sino cómo lo pides ;)'
+    text: '¡Bien hecho! <br/><br/>Tu código por haber superado este paso es %s.<br/>Cualquiera puede mentir en su perfil. <br/><br/>Tu tercera tarea como hacker social es conseguir la amistad de %s. <br/><br/>Pista: no solamente es importante lo que pides, sino cómo lo pides ;)'
     user_id: sfGuardUserProfile_4
   Automsg_5:
     text: '¿Te conozco de algo?'
   Automsg_6:
     text: chin
   Automsg_7:
-    text: '¡Vaya! ¡Esa sí que fue buena! <br/><br/>Tu cuarta tarea como hacker social es conseguir la amistad de %s. <br/><br/>Pista: Friends will be friends... una bonita canción, ¿no crees?'
+    text: '¡Vaya! ¡Esa sí que fue buena! <br/><br/>Tu código por haber superado este paso es %s.<br/>Tu cuarta tarea como hacker social es conseguir la amistad de %s. <br/><br/>Pista: Los amigos de mis amigas son mis amigos... una bonita canción, ¿no crees?'
     user_id: sfGuardUserProfile_5
   Automsg_8:
-    text: '¡Perfecto! <br/><br/>Es fácil compartir muchos amigos con desconocidos si tus amigos aceptan a cualquiera que se lo solicite }:) <br/><br>Tu quinta tarea como hacker social es conseguir la amistad de %s. <br/><br>Pista: no hay "fun" sin fans.'
+    text: '¡Perfecto! <br/><br/>Tu código por haber superado este paso es %s.<br/>Es fácil compartir muchos amigos con desconocidos si tus amigos aceptan a cualquiera que se lo solicite }:) <br/><br>Tu quinta tarea como hacker social es conseguir la amistad de %s. <br/><br>Pista: no hay "fun" sin fans.'
     user_id: sfGuardUserProfile_6
   Automsg_9:
-    text: '¡Fantástico!<br/><br/>Compartir gustos es otra buena manera de parecer familiar.<br/><br/>Tu sexta tarea como hacker social es conseguir la amistad de %s.<br/><br/>Pista: una cadena es tan fuerte como su eslabón más débil.'
+    text: '¡Fantástico!<br/><br/>Tu código por haber superado este paso es %s.<br/>Compartir gustos es otra buena manera de parecer familiar.<br/><br/>Tu sexta tarea como hacker social es conseguir la amistad de %s.<br/><br/>Pista: una cadena es tan fuerte como su eslabón más débil.'
     user_id: sfGuardUserProfile_7
   Automsg_10:
-    text: '¡Se te da bien esto! <br/><br/>No todos los amigos de una red social son realmente de confianza. <br/><br/>Tu séptima tarea como hacker social es conseguir la amistad de %s. <br/><br/>Pista: imprescindible vestir de etiqueta ;)'
+    text: '¡Se te da bien esto! <br/><br/>Tu código por haber superado este paso es %s.<br/>No todos los amigos de una red social son realmente de confianza. <br/><br/>Tu séptima tarea como hacker social es conseguir la amistad de %s. <br/><br/>Pista: imprescindible vestir de etiqueta ;)'
     user_id: sfGuardUserProfile_8
   Automsg_11:
-    text: '¡Tus habilidades son impresionantes! <br/><br/>Etiquetar amigos comunes es otra de las formas de parecer de confianza. <br/><br/>Tu octava tarea como hacker social es conseguir la amistad de %s. <br/><br/>Pista: la mía es mejor que todas las demás.'
+    text: '¡Tus habilidades son impresionantes! <br/><br/>Tu código por haber superado este paso es %s.<br/>Etiquetar amigos comunes es otra de las formas de parecer de confianza. <br/><br/>Tu octava tarea como hacker social es conseguir la amistad de %s. <br/><br/>Pista: la mía es mejor que todas las demás.'
     user_id: sfGuardUserProfile_9
   Automsg_12:
-    text: '¡Eso fue alucinante! <br/><br/>La gente narcisista adora tener miles de fans. <br/><br/>Tu novena tarea como hacker social es conseguir la amistad de %s. <br/><br/>Pista: en ocasiones es horrible ser etiquetado en fotos tontas, en otras ocasiones no tanto ;)'
+    text: '¡Eso fue alucinante! <br/><br/>Tu código por haber superado este paso es %s.<br/>La gente narcisista adora tener miles de fans. <br/><br/>Tu novena tarea como hacker social es conseguir la amistad de %s. <br/><br/>Pista: en ocasiones es horrible ser etiquetado en fotos tontas, en otras ocasiones no tanto ;)'
     user_id: sfGuardUserProfile_10
   Automsg_13:
     text: '¡Me encanta etiquetar a mis amigos en mis fotos!'
   Automsg_14:
-    text: '¡Increíble! <br/><br/>Hay una diferencia sutil pero importante entre etiquetar y ser etiquetado cuando se trata de parecer de confianza. <br/><br/>Tu décima tarea como hacker social es conseguir la amistad de %s. <br/><br/>Pista: recuerda todo lo aprendido hasta ahora, lo necesitarás.'
+    text: '¡Increíble! <br/><br/>Tu código por haber superado este paso es %s.<br/>Hay una diferencia sutil pero importante entre etiquetar y ser etiquetado cuando se trata de parecer de confianza. <br/><br/>Tu décima tarea como hacker social es conseguir la amistad de %s. <br/><br/>Pista: recuerda todo lo aprendido hasta ahora, lo necesitarás.'
     user_id: sfGuardUserProfile_11
   Automsg_15:
-    text: '¡¡Verdaderamente dominas el social hacking!! <br/><br/>Pero recuerda, un gran poder exige una gran responsabilidad ;) <br/><br/>¡Gracias por jugar!<br/><br/>Por favor, no dudes en contactar con nosotros si tienes alguna cuestión, comentario o sugerencia.'
+    text: '¡¡Verdaderamente dominas el social hacking!! <br/><br/>Tu código por haber superado este paso es %s.<br/>Pero recuerda, un gran poder exige una gran responsabilidad ;) <br/><br/>¡Gracias por jugar!<br/><br/>Por favor, no dudes en contactar con nosotros si tienes alguna cuestión, comentario o sugerencia.'
   Automsg_16:
     text: feli
 Message:
@@ -928,7 +928,7 @@ Message:
     to_id: sfGuardUserProfile_4
     is_public: '1'
     is_unread: '0'
-    text: 'nín hao!'
+    text: '!Nín hao! !Cómo me gusta China!'
     updated_at: '2012-01-01 01:01:01'
   Message_6:
     from_id: sfGuardUserProfile_5
